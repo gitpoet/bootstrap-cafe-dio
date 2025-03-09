@@ -1,0 +1,42 @@
+.btn{
+--bs-btn-bg: #198754;
+--bs-btn-border-color: #146c43;
+--bs-btn-hover-bg: #146c43;
+}
+
+.navbar-brand img{
+  width: 80px;
+}
+
+.carousel-item{
+  height: 500px;
+}
+section{
+  scroll-margin-top: 10rem;
+}
+
+.carousel-item img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item::before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, rgb(31, 31, 31));
+  position: absolute;
+}
+
+.card-menu img{
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.img-sobre img{
+  height: 190px;
+  object-fit: cover;
+  margin: 10px;
+}
